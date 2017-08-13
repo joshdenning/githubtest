@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Da Green Sunz</title>
+<link href="greensunz.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<header> <!-- Header -->
+	<div id="head">
+	<img class="banner" src="images/banner1.jpg" alt="The Horde" > <!-- Banners and logo listed here-->
+	<img src="images/logo.gif" alt="Da Green Sunz">
+	<img class="banner" src="images/banner1.jpg" alt="Banner" >
+	</div>
+	<ul class="nav">		<!-- Link Bar-->
+	<li> <a href="index.html">Home</a></li>
+	<li><a href="Dasunz.html"> Da Sunz</a></li>
+	<li><a href="Daleaderz.html">Da Leaderz</a></li>
+	<li><a href="Daarmy.html">Da Boyz</a></li>
+	<li class="on"><a href="calculator.html" class="on">Points Calculator</a></li>
+	</ul>
+	</header> <!-- end of header-->
+	
+	
+	<form>
+		<fieldset>  <!-- Leader -->
+		<legend> General </legend>
+		<p> General:
+		<select name="general" id="genpts" onchange="generalpts()">
+		<option value="default">Choose a General </option>
+		<option value="520">Mawkrusha 520 pts</option>
+		<option value="140" class="totalpts">Megaboss 140 pts</option>
+		<option value="Weirdnob">Weirdnob Shaman 120 pts</option>
+		<option value="Bigboss">Black Orc Big Boss 100 pts</option>
+		<option value="Warchanter">Warchanter 80 pts</option>
+		<option value="Ardboys">Ardboys 180 pts</option>
+		<option value="Brutes">Brutes 180 pts</option>
+		<option value="Gruntas">Gore Gruntas 180 pts</option>
+		</select> <br><br>
+
+		</p>		
+		<p> Select Artifact:
+		<select name="Artifact">			<!-- Artifact selection -->
+		<option value="">TBC</option>
+		<option value="">TBC</option>
+		<option value="">TBC</option>
+		<option value="">TBC</option>
+		<option value="">TBC</option>
+		<option value="">TBC</option>
+		</select>
+		</p>
+		<p id="demo"></p>
+		<p id="answerpts"></p>
+		</fieldset>
+		
+		<br />
+		<fieldset id="heroes">	<!-- heroes -->
+		<legend> Heroes </legend>
+		<p> Heroes
+		<select name="Hero" id="heropts" onchange="heropts()">
+		<option value="default">Choose a Hero </option>
+		<option value="520"class="addme">Mawkrusha 520 pts</option>
+		<option value="140" class="addme">Megaboss 140 pts</option>
+		<option value="120">Weirdnob Shaman 120 pts</option>
+		<option value="100">Black Orc Big Boss 100pts</option>
+		<option value="80">Warchanter 80 pts</option>
+		</select> 
+		</p>		
+		<p> Select Artifact 
+		<select name="Artifact">			<!-- Artifact selection -->
+		<option value="">TBC</option>
+		<option value="">TBC</option>
+		<option value="">TBC</option>
+		<option value="">TBC</option>
+		<option value="">TBC</option>
+		<option value="">TBC</option>
+		</select>
+		</p>
+		</fieldset>
+		<fieldset id="units">	<!-- Units -->
+		<legend> Units </legend>
+		<p> Unit:
+		<select name="Units">
+		<option value="add">Add a Unit</option>
+		<option value="Ogre">Ogors</option>
+		<option value="Ardboys">Ardboys</option>
+		<option value="Brutes">Brutes</option>
+		<option value="Gruntas">Gore Gruntas</option>
+		</select> <br><br>
+		Unit Size:
+		<input type="text" name="unit size" maxlength="3"/>	<!-- Unit size-->
+		</p>		
+		</fieldset>
+		<fieldset id="battal">	<!-- Battalions-->
+		<legend> Battalions</legend>
+		<p> Battalions:
+		<select name="Battalions">
+		<option value="addbat">Add a Battalion</option>
+		<option value="Ardfist">Ardfist</option>
+		<option value="Brutefist">Brutefist</option>
+		<option value="Weirdfist">Weirdfist</option>
+		<option value="">otherfist</option>
+		<option value="">otherfist</option>
+		</select> <br><br>
+		</fieldset>
+</form>
+<script src="pointscalc.js"> </script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+body{
+background-color:gray;
+background-repeat: no-repeat;
+font-family: arial, verdana, sans-serif;
+width: 1300px;
+background-attachment: fixed;
+}
+
+
+.banner{
+	
+	border: solid 5px #F58651;
+	padding-top: 15px;
+	padding-bottom: 14px;
+	background-color: #F58651;
+
+	
+}
+#head {
+	width: 1300px;
+	font-size: 0;
+	text-align: center;
+	border: solid 2px black;
+	background-color: #F58651;
+}
+ul.nav li{
+	width: 150px;
+	display: inline;
+	margin: 0px 20px 0px 20px;
+	border: 3px black;
+	padding: 5px;
+	background-color: #F58651;
+	border-style: solid;
+	
+}
+ul.nav {
+	height: 30px;
+	width: 1000px;
+	margin: 10px auto 10px auto;
+	border-bottom: 2px solid black;
+	text-align:center;
+}
+
+p, h1 {
+	border: solid 3px black;
+	Background-color: #F58651;
+	padding: 5px;
+	margin: 10px auto 10px auto;
+	width: 400px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+
+#head img{
+
+	display: inline-block;
+}
+
+a:hover, a.on {
+	color: white;
+	
+}
+
+ul.nav li.on {
+	background-color: #52B247;
+}
+
+#gallery {
+	width; 240px;
+	height: 360px;
+	position: absolute;
+	top: 250px;
+	left: 25px;
+}
+
+#gslogo {
+	width: 400px;
+	height: 195px;
+}
+#usefullinks {
+	width: 260px;
+	height: 200px;
+	border: solid 2px black;
+	background-color:#52B247;
+	position: absolute;
+	top: 300px;
+	right: 160px;
+	text-align: left;
+	color: white;
+}
+#usefullinks li {
+	list-style-type: none;
+	margin-top: 15px;
+	color:white;
+}
+
+#usefullinks a{
+	color: white;
+}
+
+.bio {
+	Width: 850px;
+	height: 200px;
+	margin: 5px auto 5px auto;
+	border: solid 2px black;
+	background-color: #F58651;
+}
+.left img {
+	display: inline;
+	height:200px;
+	float: left;
+	margin-right: 10px;
+}
+
+.right img {
+	display: inline;
+	height:200px;
+	float: right;
+	margin-left: 10px;
+}
+.bio p{
+	margin: 5px;
+	width: 800px;
+	text-align:left;
+	border: 0px;
+	background: none;
+}
+
+fieldset{
+	width: 600px;
+	height: 
+}
+
+fieldset p {
+	display:inline-block;
+	padding:5px;
+	margin: 5px;
+	width: 250px;
+}
